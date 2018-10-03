@@ -8,13 +8,16 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { CienciaPage } from '../pages/ciencia/ciencia';
+import { DibujoPage } from '../pages/dibujo/dibujo';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     HistoriaPage,
-    CienciaPage
+    CienciaPage,
+    DibujoPage
+    
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,8 @@ import { CienciaPage } from '../pages/ciencia/ciencia';
     MyApp,
     HomePage,
     HistoriaPage,
-    CienciaPage
+    CienciaPage,
+    DibujoPage
   ],
   providers: [
     StatusBar,
