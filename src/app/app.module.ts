@@ -10,6 +10,7 @@ import { HistoriaPage } from '../pages/historia/historia';
 import { CienciaPage } from '../pages/ciencia/ciencia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComPage } from '../pages/com/com';
+import { MiPage } from '../pages/mi/mi';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ComPage } from '../pages/com/com';
     HistoriaPage,
     CienciaPage,
     DibujoPage,
-    ComPage
+    ComPage,
+    MiPage
     
   ],
   imports: [
@@ -32,7 +34,9 @@ import { ComPage } from '../pages/com/com';
     HistoriaPage,
     CienciaPage,
     DibujoPage,
-    ComPage
+    ComPage,
+    MiPage
+
   ],
   providers: [
     StatusBar,

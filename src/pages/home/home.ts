@@ -4,6 +4,7 @@ import { HistoriaPage } from '../historia/historia';
 import { CienciaPage } from '../ciencia/ciencia';
 import { DibujoPage } from '../dibujo/dibujo';
 import { ComPage } from '../com/com';
+import { MiPage } from '../mi/mi';
 
 
 @Component({
@@ -16,6 +17,7 @@ export class HomePage {
   ciencias = CienciaPage;
   dibujo = DibujoPage;
   com = ComPage;
+  mi = MiPage;
 
   constructor(public navCtrl: NavController) {
 
@@ -39,5 +41,10 @@ export class HomePage {
   clickCom()
   {
     this.navCtrl.push(this.com);
+  }
+
+  clickMi()
+  {
+    this.navCtrl.push(this.mi);
   }
 }
