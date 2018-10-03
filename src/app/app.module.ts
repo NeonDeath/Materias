@@ -12,6 +12,7 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComPage } from '../pages/com/com';
 import { MiPage } from '../pages/mi/mi';
 import { PyePage } from '../pages/pye/pye';
+import { PappsPage } from '../pages/papps/papps';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PyePage } from '../pages/pye/pye';
     DibujoPage,
     ComPage,
     MiPage,
-    PyePage
+    PyePage,
+    PappsPage
     
   ],
   imports: [
@@ -38,7 +40,8 @@ import { PyePage } from '../pages/pye/pye';
     DibujoPage,
     ComPage,
     MiPage,
-    PyePage
+    PyePage,
+    PappsPage
 
   ],
   providers: [
