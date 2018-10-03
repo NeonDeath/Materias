@@ -11,6 +11,7 @@ import { CienciaPage } from '../pages/ciencia/ciencia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
 import { ComPage } from '../pages/com/com';
 import { MiPage } from '../pages/mi/mi';
+import { PyePage } from '../pages/pye/pye';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MiPage } from '../pages/mi/mi';
     CienciaPage,
     DibujoPage,
     ComPage,
-    MiPage
+    MiPage,
+    PyePage
     
   ],
   imports: [
@@ -35,7 +37,8 @@ import { MiPage } from '../pages/mi/mi';
     CienciaPage,
     DibujoPage,
     ComPage,
-    MiPage
+    MiPage,
+    PyePage
 
   ],
   providers: [

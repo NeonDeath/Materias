@@ -5,6 +5,7 @@ import { CienciaPage } from '../ciencia/ciencia';
 import { DibujoPage } from '../dibujo/dibujo';
 import { ComPage } from '../com/com';
 import { MiPage } from '../mi/mi';
+import { PyePage } from '../pye/pye';
 
 
 @Component({
@@ -18,6 +19,7 @@ export class HomePage {
   dibujo = DibujoPage;
   com = ComPage;
   mi = MiPage;
+  pye = PyePage;
 
   constructor(public navCtrl: NavController) {
 
@@ -46,5 +48,10 @@ export class HomePage {
   clickMi()
   {
     this.navCtrl.push(this.mi);
+  }
+
+  clickPye()
+  {
+    this.navCtrl.push(this.pye);
   }
 }
